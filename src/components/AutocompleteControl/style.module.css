@@ -1,0 +1,73 @@
+.autocomplete_control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  height: 100%;
+}
+
+.autocomplete_input_wrapper {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.input_autocomplete_control {
+  width: 80%;
+}
+
+.max_value {
+  border: 1px solid black;
+  padding: 3px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dropdowns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.max_value_wrapper {
+  position: relative;
+}
+
+.max_values_dropdown {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.max_value_item {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.autocomplete_dropdown {
+  width: 80%;
+  padding: 0;
+  height: 200px;
+  overflow-y: auto;
+  list-style: none;
+}
+
+.country_item {
+  width: 100%;
+  padding: 5px;
+  text-align: left;
+  border: 1px solid black;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.flag {
+  width: 16px;
+  height: 12px;
+  border: 1px solid black;
+  margin-left: 10px;
+}

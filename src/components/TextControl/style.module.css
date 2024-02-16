@@ -1,0 +1,6 @@
+.text_control_wrapper {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
